@@ -1,0 +1,22 @@
+Part One
+1  mkdir first
+2  cd first
+3  touch person.txt
+4  mv person.txt another.txt
+5  cp another.txt copy.txt
+6  rm copy.txt
+7  cp -r first second
+8  rm -rf second
+
+Part Two
+1  shows the manual for a command in the terminal; d to scroll down, u orb to scroll up; q to exit the manual
+2  uses a long listing format; shows all files, including hidden files (starting with . or ..)
+3  alt left/right
+4  ctrl e
+5  ctrl a
+6  ctrl w
+7  the shell is the actual program that is interacting with the computer; the terminal is the interface for typing commands
+8  an absolute path is the full path beggining from root
+9  the relative path is the path from the current position.
+10 flags are optional modifiers to terminal commands. cp -r copies directories recursively. ls -a lists all files including hidden. ls -l lists files in long format.
+11 r will remove directories and their contents recursively, and f will force the command.
